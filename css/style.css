@@ -55,8 +55,9 @@ h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -67,7 +68,7 @@ h3 {
 h2:after {
   display: block;
   height: 2px;
-  background-color: #e67e22;
+  /* background-color: #009eff; */
   content: "";
   width: 400px;
   margin: 0 auto;
@@ -179,4 +180,23 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #009eff;
+}
+
+.section-features {
+  background-color: #fff;
+}
+.second-picture {
+  margin-right: auto;
+  padding-top: 80px;
+  width: 650px;
+  height: 500px;
+}
+
+.text-second-section {
+  padding-top: 100px;
+  margin-left: 10px;
+}
+
+.second-article {
+  padding-top: 50px;
 }
